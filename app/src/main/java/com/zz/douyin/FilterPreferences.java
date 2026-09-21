@@ -21,9 +21,13 @@ public final class FilterPreferences {
     public static final String KEY_VIDEO_KEYWORDS = "video_keywords";
     public static final String KEY_SHOW_DANMAKU = "show_danmaku";
 
-    public static final boolean DEFAULT_SKIP_ADS = true;
-    public static final boolean DEFAULT_SKIP_IMAGES = true;
-    public static final boolean DEFAULT_SKIP_LIVES = true;
+    // 默认设置：
+    // 总开关：开启
+    // 沉浸式播放：开启
+    // 其他过滤功能：关闭
+    public static final boolean DEFAULT_SKIP_ADS = false;
+    public static final boolean DEFAULT_SKIP_IMAGES = false;
+    public static final boolean DEFAULT_SKIP_LIVES = false;
     public static final boolean DEFAULT_SKIP_VIDEOS = false;
     public static final boolean DEFAULT_SHOW_DANMAKU = false;
 
